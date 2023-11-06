@@ -2,19 +2,26 @@ import React from "react";
 
 import { Link, NavLink } from "react-router-dom";
 import logo1 from "../../assets/logo1.png";
-import surgery from "../../assets/surgery.jpg";
+import playpet from "../../assets/playpet.png";
 import Adopt from "../../assets/Adopt.png";
 import rescueanimal from "../../assets/rescueanimal.avif";
 import SpecialRescues from "../../assets/SpecialRescues.jpeg";
+import surgery from "../../assets/surgery.png";
 import mobhosp from "../../assets/mobhosp.png";
 import animalhosp from "../../assets/animalhosp.jpg";
 import animalclinic from "../../assets/animalclinic.png";
+import kuttashelter from "../../assets/kuttashelter.png";
 import aniclinic from "../../assets/aniclinic.jpeg";
 import diagnos from "../../assets/diagnos.jpeg";
 import shelter from "../../assets/shelter.jpeg";
 import education from "../../assets/education.jpeg";
 import anicre from "../../assets/anicre.jpeg";
 import heart from "../../assets/heart.jpg";
+import volunteer from "../../assets/volunteer.png";
+import newclinic from "../../assets/newclinic.png";
+import newmed from "../../assets/newmed.png";
+import newed from "../../assets/newed.png";
+import newvet from "../../assets/newvet.png";
 import bed from "../../assets/bed.png";
 import whatwedopic from "../../assets/whatwedopic.webp";
 
@@ -58,7 +65,7 @@ hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in"
               ANIMAL BIRTH CONTROL SURGERIES
             </div>
             <div className="ml-12">
-              <img src={bed} className="h-20 w-20" alt="" />
+              <img src={surgery} className="h-16 w-20" alt="" />
             </div>
 
             <style>
@@ -89,7 +96,7 @@ ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translat
 hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in"
           >
             <div>
-              <img src={bed} className=" h-20 w-20" alt="" />{" "}
+              <img src={playpet} className=" h-16 w-20" alt="" />{" "}
             </div>
             <div className="text-black font-semibold text-3xl px-4  py-5">
               RESCUE ANIMAL IN DISTRESS
@@ -128,7 +135,7 @@ hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in"
               ADOPTION AND FOSTERING
             </div>
             <div className="ml-12">
-              <img src={bed} className="h-20 w-20" alt="" />
+              <img src={kuttashelter} className="h-16 w-20" alt="" />
             </div>
 
             <style>
@@ -159,7 +166,7 @@ ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translat
 hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in"
           >
             <div>
-              <img src={bed} className=" h-20 w-20" alt="" />{" "}
+              <img src={volunteer} className=" h-16 w-20" alt="" />{" "}
             </div>
             <div className="text-black font-semibold text-3xl px-4  py-5">
               SPECIAL RESCUES AND DISASTER RELIEF
@@ -197,7 +204,7 @@ hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in"
               ANIMAL HOSPITAL
             </div>
             <div className="ml-12">
-              <img src={bed} className="h-16 w-20" alt="" />
+              <img src={newclinic} className="h-16 w-20" alt="" />
             </div>
 
             <style>
@@ -228,7 +235,7 @@ ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translat
 hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in"
           >
             <div>
-              <img src={bed} className=" h-20 w-20" alt="" />{" "}
+              <img src={newmed} className=" h-16 w-20" alt="" />{" "}
             </div>
             <div className="text-black font-semibold text-3xl px-4  py-5">
               MOBILE HOSPITAL AND VET ON WHEELS
@@ -266,7 +273,7 @@ hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in"
               ANIMAL OUTPATIENT CLINIC
             </div>
             <div className="ml-12">
-              <img src={bed} className="h-20 w-20" alt="" />
+              <img src={newvet} className="h-16 w-20" alt="" />
             </div>
 
             <style>
@@ -297,7 +304,7 @@ ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translat
 hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in"
           >
             <div>
-              <img src={bed} className=" h-20 w-20" alt="" />{" "}
+              <img src={bed} className=" h-16 w-20" alt="" />{" "}
             </div>
             <div className="text-black font-semibold text-3xl px-4  py-5">
               DIAGNOSTICS
@@ -335,7 +342,7 @@ hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in"
               ANIMAL SHELTER
             </div>
             <div className="ml-12">
-              <img src={bed} className="h-20 w-20" alt="" />
+              <img src={kuttashelter} className="h-16 w-20" alt="" />
             </div>
 
             <style>
@@ -366,7 +373,7 @@ ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translat
 hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in"
           >
             <div>
-              <img src={bed} className=" h-20 w-20" alt="" />{" "}
+              <img src={newed} className=" h-16 w-20" alt="" />{" "}
             </div>
             <div className="text-black font-semibold text-3xl px-4  py-5">
               HUMANE EDUCATION PROGRAM
@@ -406,7 +413,7 @@ hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-
             <h1 className="mt-3">CONTROL</h1>
           </div>
           <div className="inline-block w-5/12 ">
-            <img src={surgery} className="h-full" alt="" />
+            <img src="https://bluecrossofindia.org/images/ABC_1.png" className="h-full" alt="" />
           </div>
           <div className="bg-sky-950 text-white p-24 w-2/5 text-lg ">
             As an NGO dedicated to animal birth control,
