@@ -3,6 +3,19 @@ import logo1 from "../../assets/logo1.png";
 import help1 from "../../assets/help1.png";
 import heart from "../../assets/heart.jpg";
 import bed from "../../assets/bed.png";
+import donation from "../../assets/donation.png";
+import surgery from "../../assets/surgery.png";
+import playpet from "../../assets/playpet.png";
+import dil from "../../assets/dil.png";
+import gcommu from "../../assets/gcommu.png";
+import volunteer from "../../assets/volunteer.png";
+import pledge from "../../assets/pledge.png";
+import waystohelp1 from "../../assets/waystohelp1.jpg";
+import waystohelp2 from "../../assets/waystohelp2.jpg";
+import waystohelp8 from "../../assets/waystohelp8.jpeg";
+import waystohelp3 from "../../assets/waystohelp3.jpg";
+import waystohelp4 from "../../assets/waystohelp4.jpg";
+import waystohelp5 from "../../assets/waystohelp5.jpg";
 
 function Waystohelp() {
   return (
@@ -59,7 +72,7 @@ hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in"
               DONATE
             </div>
             <div className="ml-12">
-              <img src={bed} className="h-20 w-20" alt="" />
+              <img src={donation} className="h-16 w-20" alt="" />
             </div>
 
             <style>
@@ -83,14 +96,14 @@ animation: fade-left-in 3s ease-in-out forwards;
         </a>
 
         {/* SECOND HORIZONTAL DIV*/}
-        <a href="#rescue">
+        <a href="#surg">
           <div
             className="bg-sky-200 h-20 w-3/5 border-4 rounded-l-full border-sky-950 
 ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translate-y-1 
 hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in"
           >
             <div>
-              <img src={bed} className=" h-20 w-20" alt="" />{" "}
+              <img src={surgery} className=" h-16 w-20" alt="" />{" "}
             </div>
             <div className="text-black font-semibold text-3xl px-4  py-5">
               GET SURGERY DONE
@@ -119,7 +132,7 @@ hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-
 
         {/* THIRD HORIZONTAL DIV*/}
 
-        <a href="#foster">
+        <a href="#fost">
           <div
             className="bg-sky-200 h-20 w-3/5 border-4 rounded-r-full border-sky-950 
 ml-20 flex duration-1000 ease-in-out justify-evenly m-10 transition delay-150 hover:-translate-y-1 
@@ -129,7 +142,7 @@ hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in"
               ADOPTION AND FOSTERING
             </div>
             <div className="ml-12">
-              <img src={bed} className="h-20 w-20" alt="" />
+              <img src={playpet} className="h-16 w-20" alt="" />
             </div>
 
             <style>
@@ -153,14 +166,14 @@ animation: fade-left-in 3s ease-in-out forwards;
         </a>
 
         {/* FOURTH HORIZONTAL DIV*/}
-        <a href="special">
+        <a href="volun">
           <div
             className="bg-sky-200 h-20 w-3/5 border-4 rounded-l-full border-sky-950 
 ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translate-y-1 
 hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in"
           >
             <div>
-              <img src={bed} className=" h-20 w-20" alt="" />{" "}
+              <img src={volunteer} className=" h-16 w-20" alt="" />{" "}
             </div>
             <div className="text-black font-semibold text-3xl px-4  py-5">
               VOLUNTEER
@@ -188,7 +201,7 @@ hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-
         </a>
 
         {/* FIFTH HORIZONTAL DIV*/}
-        <a href="#hospital">
+        <a href="#host">
           <div
             className="bg-sky-200 h-20 w-3/5 border-4 rounded-r-full border-sky-950 
 ml-20 flex duration-1000 ease-in-out justify-evenly m-10 transition delay-150 hover:-translate-y-1 
@@ -198,7 +211,7 @@ hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in"
               HOST A DONATION BOX
             </div>
             <div className="ml-12">
-              <img src={bed} className="h-20 w-20" alt="" />
+              <img src={donation} className="h-16 w-20" alt="" />
             </div>
 
             <style>
@@ -222,14 +235,14 @@ animation: fade-left-in 3s ease-in-out forwards;
         </a>
 
         {/* SIXTH HORIZONTAL DIV*/}
-        <a href="mobile">
+        <a href="kind">
           <div
             className="bg-sky-200 h-20 w-3/5 border-4 rounded-l-full border-sky-950 
 ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translate-y-1 
 hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in"
           >
             <div>
-              <img src={bed} className=" h-20 w-20" alt="" />{" "}
+              <img src={dil} className=" h-16 w-20" alt="" />{" "}
             </div>
             <div className="text-black font-semibold text-3xl px-4  py-5">
               DONATE IN KIND
@@ -257,17 +270,17 @@ hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-
         </a>
         {/* SEVENTH HORIZONTAL DIV*/}
 
-        <a href="#clinic">
+        <a href="#take">
           <div
             className="bg-sky-200 h-20 w-3/5 border-4 rounded-r-full border-sky-950 
 ml-20 flex duration-1000 ease-in-out justify-evenly m-10 transition delay-150 hover:-translate-y-1 
 hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in"
           >
             <div className="text-black font-semibold text-3xl px-4 py-5">
-              HELP SPREAD THE WORD
+              TAKE THE PLEDGE
             </div>
             <div className="ml-12">
-              <img src={bed} className="h-20 w-20" alt="" />
+              <img src={gcommu} className="h-16 w-20" alt="" />
             </div>
 
             <style>
@@ -289,41 +302,6 @@ animation: fade-left-in 3s ease-in-out forwards;
             </style>
           </div>
         </a>
-
-        {/* EIGTH HORIZONTAL DIV*/}
-        <a href="diagnostics">
-          <div
-            className="bg-sky-200 h-20 w-3/5 border-4 rounded-l-full border-sky-950 
-ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translate-y-1 
-hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in"
-          >
-            <div>
-              <img src={bed} className=" h-20 w-20" alt="" />{" "}
-            </div>
-            <div className="text-black font-semibold text-3xl px-4  py-5">
-              TAKE THE PLEDGE
-            </div>
-
-            <style>
-              {`
-    @keyframes fade-right-in {
-        from {
-          transform: translateX(100%);
-          opacity: 0;
-        }
-        to {
-          transform: translateX(0);
-          opacity: 1;
-        }
-      }
-      
-      .animate-fade-right-in {
-        animation: fade-right-in 3s ease-in-out forwards;
-      }
-    `}
-            </style>
-          </div>
-        </a>
       </div>
 
       {/*  HORIZONTAL DIV ENDING*/}
@@ -332,7 +310,7 @@ hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-
 
       <div className="flex flex-col items-center">
         {/* FIRST VERTICAL DIV */}
-        <div className="w-2/3 h- 2/3 mt-4 mb-8">
+        <div id="surg"className="w-2/3 h- 2/3 mt-4 mb-8">
           <div className="h-20  bg-sky-950 text-white text-center text-4xl pt-4 font-semibold">
             SURGERY FOR YOUR PET OR COMMUNITY ANIMAL
           </div>
@@ -369,27 +347,15 @@ hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-
         </div>
 
         {/* SECOND VERTICAL DIV */}
-        <div className="w-2/3 h- 2/3  mt-4 mb-8">
+        <div id="fost"className="w-2/3 h- 2/3  mt-4 mb-8">
           <div className="h-20  bg-sky-950 text-white text-center text-4xl pt-4 font-semibold">
             ADOPT/FOSTER
           </div>
 
           <div className="flex ">
-            <img
-              src="https://imgs.search.brave.com/zvA46ZcIWh4iUGOxQxJ4Nm-62zRc5yp_u3PGcJviRGU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMueW91cnN0b3J5/LmNvbS9jcy81Lzk4/YzY1MDkwNTkyZjEx/ZWE5ZjYyMzM5Y2U4/NTNjYTc1L2ltYWdl/My0xNjI0NTQxNTUx/NjI5LmpwZz9mbT1w/bmcmYXV0bz1mb3Jt/YXQmdz04MDA"
-              className="h-96 w-1/3"
-              alt=""
-            />
-            <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100196.jpg?w=996&t=st=1699221091~exp=1699221691~hmac=7ca04a8fac32aebadda948ecb9d9689658c75418c2116a965ecb9194efd01f25"
-              className="h-96 w-1/3"
-              alt=""
-            />
-            <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100201.jpg?w=996&t=st=1699221268~exp=1699221868~hmac=4aa48874136d3e933f22049a898ed0c5faa18e2e527f5b33c763546731d787fc"
-              className="h-96 w-1/3"
-              alt=""
-            />
+            <img src={waystohelp3} className="h-96 w-1/3" alt="" />
+            <img src={waystohelp4} className="h-96 w-1/3" alt="" />
+            <img src={waystohelp5} className="h-96 w-1/3" alt="" />
           </div>
 
           <div className=" text-black text-lg font-bold pb-6 pt-4 flex flex-col items-center bg-sky-200 pl-8 pr-8">
@@ -403,12 +369,12 @@ hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-
             <br /> <br />
             Orphaned Pups & Kittens: <br />
             Scores are motherless street pups and kittens are rescued by the
-            Blue Cross Of India in Chennai every month. <br />
+            PAWS OF PARADE every month. <br />
             <br /> <br />
             Abandoned Pets: <br />
             Though abandoing a pet is illegal, many adult pet dogs and cats are
             anonymously abandoned. Many, often tied to posts overnight outside
-            our Guindy shelter. These are rescued and managed in our Abandoned
+            our  shelter. These are rescued and managed in our Abandoned
             Animals section. <br />
             <br /> <br />
             These are the animals that are in desparate need of loving homes.
@@ -416,27 +382,15 @@ hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-
         </div>
 
         {/* THIRD VERTICAL DIV */}
-        <div className="w-2/3 h- 2/3  mt-4 mb-8">
+        <div id="volun"className="w-2/3 h- 2/3  mt-4 mb-8">
           <div className="h-20  bg-sky-950 text-white text-center text-4xl pt-4 font-semibold">
             VOLUNTEER
           </div>
 
           <div className="flex ">
-            <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100178.jpg?w=996&t=st=1699221070~exp=1699221670~hmac=117d00fbbe5696fd371009411be61b8f94b5b4b1df9f000ad1faab9ba97b000a"
-              className="h-96 w-1/3"
-              alt=""
-            />
-            <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100196.jpg?w=996&t=st=1699221091~exp=1699221691~hmac=7ca04a8fac32aebadda948ecb9d9689658c75418c2116a965ecb9194efd01f25"
-              className="h-96 w-1/3"
-              alt=""
-            />
-            <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100201.jpg?w=996&t=st=1699221268~exp=1699221868~hmac=4aa48874136d3e933f22049a898ed0c5faa18e2e527f5b33c763546731d787fc"
-              className="h-96 w-1/3"
-              alt=""
-            />
+            <img src={waystohelp1} className="h-96 w-1/3" alt="" />
+            <img src={waystohelp2} className="h-96 w-1/3" alt="" />
+            <img src={waystohelp8} className="h-96 w-1/3" alt="" />
           </div>
 
           <div className=" text-black text-lg font-bold pb-6 pt-4 flex flex-col items-center bg-sky-200 pl-8 pr-8">
@@ -463,7 +417,7 @@ hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-
         </div>
 
         {/* FOURTH VERTICAL DIV */}
-        <div className="w-2/3 h- 2/3  mt-4 mb-8">
+        <div id="host" className="w-2/3 h- 2/3  mt-4 mb-8">
           <div className="h-20  bg-sky-950 text-white text-center text-4xl pt-4 font-semibold">
             HOST A DONATION BOX / QR POSTER
           </div>
@@ -522,7 +476,7 @@ hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-
         </div>
 
         {/* FIFTH VERTICAL DIV */}
-        <div className="w-2/3 h- 2/3  mt-4 mb-8">
+        <div id="kind"className="w-2/3 h- 2/3  mt-4 mb-8">
           <div className="h-20  bg-sky-950 text-white text-center text-4xl pt-4 font-semibold">
             DONATE IN KIND
           </div>
@@ -550,9 +504,8 @@ hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-
             always needs. <br />
             <br />
             <br />
-            For Sanitation: <br />
-            - Old Newspapers as litter soakers, Puppy Underpads, Cat Litter,{" "}
-            <br />
+            For Sanitation: <br />- Old Newspapers as litter soakers, Puppy
+            Underpads, Cat Litter, <br />
             - Khorsolin Disinfectant, Kennel Wash, Savlon/Dettol, Brooms,
             Hosepipes <br />
             - Petben Dog Shampoo, Used Towels <br />
@@ -569,69 +522,12 @@ hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-
           </div>
         </div>
 
-        {/* SIXTH VERTICAL DIV */}
-        <div className="w-2/3 h- 2/3  mt-4 mb-8">
-          <div className="h-20  bg-sky-950 text-white text-center text-4xl pt-4 font-semibold">
-            HOST A DONATION BOX / QR POSTER
-          </div>
-
-          <div className="flex ">
-            <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100178.jpg?w=996&t=st=1699221070~exp=1699221670~hmac=117d00fbbe5696fd371009411be61b8f94b5b4b1df9f000ad1faab9ba97b000a"
-              className="h-96 w-1/3"
-              alt=""
-            />
-            <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100196.jpg?w=996&t=st=1699221091~exp=1699221691~hmac=7ca04a8fac32aebadda948ecb9d9689658c75418c2116a965ecb9194efd01f25"
-              className="h-96 w-1/3"
-              alt=""
-            />
-            <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100201.jpg?w=996&t=st=1699221268~exp=1699221868~hmac=4aa48874136d3e933f22049a898ed0c5faa18e2e527f5b33c763546731d787fc"
-              className="h-96 w-1/3"
-              alt=""
-            />
-          </div>
-
-          <div className=" text-black text-lg font-bold pb-6 pt-4 flex flex-col items-center bg-sky-200 pl-8 pr-8">
-            You can make a big difference helping with fundraising by hosting a
-            donation box. If you own an establishment that has good footfall
-            i.e. you have a lot of visitors everyday and wish to help a six
-            decade old animal welfare organization in fundraising - you will be
-            the right fit for our host-a-box program. <br />
-            <br />
-            <br />
-            A donation box may be physical or virtual. <br />
-            <br /> <br />
-            Currently our Physical Donation Box program is only available in
-            locations within Chennai. The boxes are made of acrylic and are
-            compact taking up very little space on your counter tops, but look
-            smart and tidy. <br />
-            <br /> <br />
-            Our Virtual Donation Box program is available anwhere in the world.
-            These are user printable boxes or posters that contain our donation
-            QR code links that will take potential donors to our online donation
-            page. <br />
-            <br /> <br />
-            Who can host a 'physical' donation box OR a 'physical' QR-poster:{" "}
-            <br />
-            Office Receptions of large MNCs / Tech Companies <br />
-            Individual Owned Shops (particularly Pet shops) <br />
-            Retail Chains <br />
-            Malls <br />
-            Airports <br />
-            Railway Stations <br /> <br /> <br />
-            Who can host a donation QR Code Poster: <br />
-            Online: <br />
-            Any personal / business website that is not ideologically conflicted
-            with animals rights and animal welfare <br />
-          </div>
-        </div>
+        
 
         {/* SEVENTH VERTICAL DIV */}
-        <div className="w-2/3 h- 2/3  mt-4 mb-8">
+        <div id="take" className="w-2/3 h- 2/3  mt-4 mb-8">
           <div className="h-20  bg-sky-950 text-white text-center text-4xl pt-4 font-semibold">
-            HOST A DONATION BOX / QR POSTER
+            TAKE THE PLEDGE
           </div>
 
           <div className="flex ">
@@ -653,37 +549,22 @@ hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-
           </div>
 
           <div className=" text-black text-lg font-bold pb-6 pt-4 flex flex-col items-center bg-sky-200 pl-8 pr-8">
-            You can make a big difference helping with fundraising by hosting a
-            donation box. If you own an establishment that has good footfall
-            i.e. you have a lot of visitors everyday and wish to help a six
-            decade old animal welfare organization in fundraising - you will be
-            the right fit for our host-a-box program. <br />
+            The first step to shape our world into one that values and respects
+            all animals is to recognise the intrinsic value of non human
+            animals. A value that goes far beyond the one that considers them a
+            property or even a pet. That all living things are intrinsically -
+            for and by themselves valuable to our fragile ecosystem.
             <br />
             <br />
-            A donation box may be physical or virtual. <br />
-            <br /> <br />
-            Currently our Physical Donation Box program is only available in
-            locations within Chennai. The boxes are made of acrylic and are
-            compact taking up very little space on your counter tops, but look
-            smart and tidy. <br />
-            <br /> <br />
-            Our Virtual Donation Box program is available anwhere in the world.
-            These are user printable boxes or posters that contain our donation
-            QR code links that will take potential donors to our online donation
-            page. <br />
-            <br /> <br />
-            Who can host a 'physical' donation box OR a 'physical' QR-poster:{" "}
             <br />
-            Office Receptions of large MNCs / Tech Companies <br />
-            Individual Owned Shops (particularly Pet shops) <br />
-            Retail Chains <br />
-            Malls <br />
-            Airports <br />
-            Railway Stations <br /> <br /> <br />
-            Who can host a donation QR Code Poster: <br />
-            Online: <br />
-            Any personal / business website that is not ideologically conflicted
-            with animals rights and animal welfare <br />
+            - I will speak up for animals in distress and report abuse/cruelty
+            or neglect to the police. <br />
+            - I will lobby to improve the laws that recognise animal rights.{" "}
+            <br />
+            - I will support law enforcement across the country in their efforts
+            to enforce animal cruelty laws. <br />
+            - I will talk to family and friends about animal welfare and
+            encourage them to learn more. <br /> <br /> <br />
           </div>
         </div>
       </div>

@@ -210,11 +210,17 @@ const Home = () => {
                       </h5>
 
                       <p className="mb-4 text-xl text text-black  ">
-                        <div className="p-3 ">DOG</div>
-                        <div className="p-3">MALE</div>
-                        <div className="p-3">HUSKY</div>
-                        <div className="p-3">8 YEARS</div>
+                        <div className="p-1 ">DOG</div>
+                        <div className="p-1">MALE</div>
+                        <div className="p-1">HUSKY</div>
+                        <div className="p-1">8 YEARS</div>
+                       
                       </p>
+                      <div className=" flex justify-center">
+          <button className="bg-sky-200 text-lg border rounded-full p-1 text-black hover:translate-y-2 hover:border-4 hover:border-double ">
+            BECOME VOLUNTEER
+          </button>
+        </div>
                     </div>
                   </div>
                 </div>
@@ -243,11 +249,16 @@ const Home = () => {
                       </h5>
 
                       <p className="mb-4 text-xl text text-black ">
-                        <div className="p-3">DOG</div>
-                        <div className="p-3">MALE</div>
-                        <div className="p-3">Pug</div>
-                        <div className="p-3">4 YEARS</div>
+                        <div className="p-1">DOG</div>
+                        <div className="p-1">MALE</div>
+                        <div className="p-1">Pug</div>
+                        <div className="p-1">4 YEARS</div>
                       </p>
+                      <div className=" flex justify-center">
+          <button className="bg-sky-200 text-lg border rounded-full p-1 text-black hover:translate-y-2 hover:border-4 hover:border-double ">
+            BECOME VOLUNTEER
+          </button>
+        </div>
                     </div>
                   </div>
                 </div>
@@ -276,11 +287,16 @@ const Home = () => {
                       </h5>
 
                       <p className="mb-4 text-xl text text-black ">
-                        <div className="p-3">CAT</div>
-                        <div className="p-3">FEMALE</div>
-                        <div className="p-3">RAGDOLL</div>
-                        <div className="p-3">2.5 YEARS</div>
+                        <div className="p-1">CAT</div>
+                        <div className="p-1">FEMALE</div>
+                        <div className="p-1">RAGDOLL</div>
+                        <div className="p-1">2.5 YEARS</div>
                       </p>
+                      <div className=" flex justify-center">
+          <button className="bg-sky-200 text-lg border rounded-full p-1 text-black hover:translate-y-2 hover:border-4 hover:border-double ">
+            BECOME VOLUNTEER
+          </button>
+        </div>
                     </div>
                   </div>
                 </div>
@@ -312,11 +328,16 @@ const Home = () => {
                       </h5>
 
                       <p className="mb-4 text-xl text-black ">
-                        <div className="p-3">DOG</div>
-                        <div className="p-3">FEMALE</div>
-                        <div className="p-3">POMERANIAN</div>
-                        <div className="p-3">2 YEARS</div>
+                        <div className="p-1">DOG</div>
+                        <div className="p-1">FEMALE</div>
+                        <div className="p-1">POMERANIAN</div>
+                        <div className="p-1">2 YEARS</div>
                       </p>
+                      <div className=" flex justify-center">
+          <button className="bg-sky-200 text-lg border rounded-full p-1 text-black hover:translate-y-2 hover:border-4 hover:border-double ">
+            BECOME VOLUNTEER
+          </button>
+        </div>
                     </div>
                   </div>
                 </div>
@@ -345,11 +366,16 @@ const Home = () => {
                       </h5>
 
                       <p className="mb-4 text-xl text text-black ">
-                        <div className="p-3">DOG</div>
-                        <div className="p-3">MALE</div>
-                        <div className="p-3">G-Shepherd</div>
-                        <div className="p-3">5 YEARS</div>
+                        <div className="p-1">DOG</div>
+                        <div className="p-1">MALE</div>
+                        <div className="p-1">G-Shepherd</div>
+                        <div className="p-1">5 YEARS</div>
                       </p>
+                      <div className=" flex justify-center">
+          <button className="bg-sky-200 text-lg border rounded-full p-1 text-black hover:translate-y-2 hover:border-4 hover:border-double ">
+            BECOME VOLUNTEER
+          </button>
+        </div>
                     </div>
                   </div>
                 </div>
@@ -378,11 +404,16 @@ const Home = () => {
                       </h5>
 
                       <p className="mb-4 text-xl text text-black ">
-                        <div className="p-3">CAT</div>
-                        <div className="p-3">FEMALE</div>
-                        <div className="p-3">RAGDOLL</div>
-                        <div className="p-3">2.5 YEARS</div>
+                        <div className="p-1">CAT</div>
+                        <div className="p-1">FEMALE</div>
+                        <div className="p-1">RAGDOLL</div>
+                        <div className="p-1">2.5 YEARS</div>
                       </p>
+                      <div className=" flex justify-center">
+          <button className="bg-sky-200 text-lg border rounded-full p-1 text-black hover:translate-y-2 hover:border-4 hover:border-double ">
+            BECOME VOLUNTEER
+          </button>
+        </div>
                     </div>
                   </div>
                 </div>
