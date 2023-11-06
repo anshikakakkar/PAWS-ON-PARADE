@@ -9,6 +9,7 @@ import Whatwedo from './Components/Whatwedo/Whatwedo.jsx'
 import Whoweare from './Components/Whoweare/Whoweare.jsx'
 import Waystohelp from './Components/Waystohelp/Waystohelp.jsx'
 import Adopt from './Components/Adopt/Adopt.jsx'
+import Foster from './Components/Foster/Foster.jsx'
 
 
 const router=createBrowserRouter([
@@ -35,6 +36,10 @@ const router=createBrowserRouter([
       {
         path:"Adopt",
         element:<Adopt/>
+      },
+      {
+        path:"Foster",
+        element:<Foster/>
       }
 
       
