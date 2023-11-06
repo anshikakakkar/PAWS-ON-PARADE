@@ -3,9 +3,38 @@ import React from 'react'
 function Whoweare() {
   return (
     <>
+    {/*  FIRST DIV STARTING*/}
+
     <div className='flex flex-col items-center'>
-    <div className='bg-sky-950 text-6xl p-6 m-4 text-white flex justify-center tracking-widest font-bold border border-sky-950 w-5/12 rounded-full my-6 '>WHO WE ARE</div>
-    <div className='flex flex-col items-center my-4'>
+
+    <div
+        class="w-full h-52 bg-[url('https://images.pexels.com/photos/3114143/pexels-photo-3114143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] 
+        bg-cover bg-center mb-10 animate-slide-in-left duration-1000">
+        <div class="w-full h-full flex  justify-center items-center backdrop-blur-none">
+                <span class="text-white font-bold text-4xl underline decoration-3 w-1/2 text-center">WHO WE ARE</span>
+        </div>
+        <style>
+        {`
+        @keyframes slide-in-left {
+            from {
+              transform: translateX(-100%);
+              opacity: 0;
+            }
+            to {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+          
+          .animate-slide-in-left {
+            animation: slide-in-left 1s ease-in-out forwards;
+          }
+        `}
+    </style>
+    </div>
+
+
+    <div className='flex flex-col items-center my-4 '>
         <div className='w-5/6 flex flex-col items-center  '>
             <div className='flex flex-row justify-center bg-sky-950 text-white p-8 text-2xl w-full border-transparent border-2 rounded-xl '>
                  <div>THE STORY OF PAWS ON PARADE</div>
@@ -48,7 +77,8 @@ function Whoweare() {
         </div>
     </div>
     </div>
-
+    {/*  SECOND DIV STARTING*/}
+    
     <div className='flex flex-col items-center'>
   
     <div className='flex flex-col items-center my-4'>

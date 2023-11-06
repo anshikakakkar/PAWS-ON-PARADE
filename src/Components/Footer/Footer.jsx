@@ -1,14 +1,15 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import pawsonparadelogo from '../../assets/pawsonparadelogo.png'
 
 export default function Footer() {
     return (
-        <footer class="bg-sky-950 text-white shadow-inner pt-4 pb-8">
+        <footer class="bg-black text-white shadow-inner">
       <div class="flex p-5 justify-between">
         <div class="flex flex-1 flex-col text-center sm:flex-row items-center justify-center space-x-3">
           <div>
             <Link to="#top">
-              <img class="rounded-full w-24 cursor-pointer hover:scale-110" src="" alt="logo"/>
+              <img class="rounded-full w-24 cursor-pointer hover:scale-110" src={pawsonparadelogo} className='h-32 w-32' alt="logo"/>
             </Link>
           </div>
           <div>
@@ -38,35 +39,9 @@ export default function Footer() {
         </form>
         </div>
         
-        <div class="flex-1 flex flex-col items-center justify-center">
-          <div class="text-2xl">Follow us on</div>
-          <div class="flex mt-2 flex-row space-x-3 my-0">
-            <div class="hover:scale-110 transition-all">
-              
-            </div>
-            <div class="hover:scale-110 transition-all">
-              <a href="#" class="w-10 ml-3 mr-3">
-                
-              </a>
-            </div>
-            <div class="hover:scale-110 transition-all">
-              <Link to="" target="_blank" class="w-10 ml-3 mr-3">
-                
-                
-              </Link>
-            </div>
-          </div>
-        </div>
         
 
         
-        <div class="md:pr-8 hover-effect">
-          <Link to="#top">
-            <button id="bttbutton" title="backtotop" >
-              <img src="./image.svg" class="w-6 md:w-10 md:object-left sm:w-10"/>
-            </button>
-          </Link>
-        </div>
         
       </div>
 

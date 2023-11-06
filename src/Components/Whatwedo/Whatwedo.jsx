@@ -1,4 +1,6 @@
 import React from 'react'
+
+import {Link , NavLink} from 'react-router-dom'
 import logo1 from '../../assets/logo1.png'
 import surgery from '../../assets/surgery.jpg'
 import Adopt from '../../assets/Adopt.png'
@@ -12,97 +14,359 @@ import diagnos from '../../assets/diagnos.jpeg'
 import shelter from '../../assets/shelter.jpeg'
 import education from '../../assets/education.jpeg'
 import anicre from '../../assets/anicre.jpeg'
+import heart from '../../assets/heart.jpg'
+import bed from '../../assets/bed.png'
+import whatwedopic from '../../assets/whatwedopic.webp'
+
 
 
 
 function Whatwedo() {
   return (
     <>
-    <div className='flex flex-col items-center'>
-    <div className='bg-sky-950 text-6xl p-6 m-4 text-white flex justify-center tracking-widest font-bold border border-sky-950 w-5/12 rounded-full my-6 '>WHAT WE DO</div>
+    <div className='flex flex-col items-center '>
+        {/* HEADING */}
+        <div
+        class="w-full h-52 bg-[url('https://images.pexels.com/photos/127027/pexels-photo-127027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] 
+        bg-cover bg-center mb-10">
+        <div class="w-full h-full flex  justify-center items-center backdrop-blur-none">
+                <span class="text-white font-bold text-4xl underline decoration-3 w-1/2 text-center">WHAT WE DO</span>
+        </div>
     </div>
- <div>
-<div className=' bg-sky-200 h-24 w-3/5 border-4 rounded-r-full border-sky-950 ml-20 flex m-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:cursor-pointer'>
+    </div>
+      
+      {/*  HORIZONTAL DIV STARTING*/}
+ <div class=" left-100" >
 
-    <div className='text-black font-semibold text-4xl px-4  py-5 '>ANIMAL BIRTH CONTROL SURGERIES</div>
-    <div className='ml-12'><img src={logo1} className=" h-20 w-20"alt="" /> </div>
+    {/* FIRST HORIZONTAL DIV*/}
 
- </div>
+ <a href="#birth" activeClass='active' spy={true} smooth='true' offset={-50} duration={-500}>
+<div className='bg-sky-200 h-20 w-3/5 border-4 rounded-r-full border-sky-950 
+ml-20 flex duration-1000 ease-in-out justify-evenly m-10 transition delay-150 hover:-translate-y-1 
+hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in'>
+    <div className='text-black font-semibold text-3xl px-4 py-5'>
+        ANIMAL BIRTH CONTROL SURGERIES
+    </div>
+    <div className='ml-12'>
+        <img src={bed} className="h-20 w-20" alt="" />
+    </div>
 
+    <style>
+        {`@keyframes fade-left-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
+.animate-fade-left-in {
+  animation: fade-left-in 3s ease-in-out forwards;
+}
+        `}
+    </style>
+</div>
+ </a>
 
-<div className='bg-sky-200 h-24 w-3/5 border-4 rounded-l-full border-sky-950 ml-96 flex m-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:cursor-pointer'>
+ {/* SECOND HORIZONTAL DIV*/}
+<a href="#rescue">
+<div className='bg-sky-200 h-20 w-3/5 border-4 rounded-l-full border-sky-950 
+ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translate-y-1 
+hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in'>
 
-<div><img src={logo1} alt="" /> </div>
-<div className='text-black font-semibold text-4xl px-4  py-5'>RESCUE ANIMAL IN DISTRESS</div>
+<div><img src={bed} className=" h-20 w-20" alt="" /> </div>
+<div className='text-black font-semibold text-3xl px-4  py-5'>RESCUE ANIMAL IN DISTRESS</div>
 
+<style>
+        {`
+        @keyframes fade-right-in {
+            from {
+              transform: translateX(100%);
+              opacity: 0;
+            }
+            to {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+          
+          .animate-fade-right-in {
+            animation: fade-right-in 3s ease-in-out forwards;
+          }
+        `}
+    </style>
 
 </div>
-<div className='bg-sky-200 h-24 w-3/5 border-4 rounded-r-full border-sky-950 ml-20 flex m-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:cursor-pointer' >
+</a>
 
-    <div className='text-black font-semibold text-4xl px-4  py-5'>ADOPTION AND FOSTERING</div>
-    <div><img src={logo1} alt="" /> </div>
+{/* THIRD HORIZONTAL DIV*/}
 
- </div>
+<a href="#foster">
+<div className='bg-sky-200 h-20 w-3/5 border-4 rounded-r-full border-sky-950 
+ml-20 flex duration-1000 ease-in-out justify-evenly m-10 transition delay-150 hover:-translate-y-1 
+hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in'>
+    <div className='text-black font-semibold text-3xl px-4 py-5'>
+        ADOPTION AND FOSTERING
+    </div>
+    <div className='ml-12'>
+        <img src={bed} className="h-20 w-20" alt="" />
+    </div>
 
- <div className='bg-sky-200 h-24 w-3/5 border-4 rounded-l-full border-sky-950 ml-96 flex m-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:cursor-pointer'>
+    <style>
+        {`@keyframes fade-left-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
-<div><img src={logo1} alt="" /> </div>
-<div className='text-black font-semibold text-4xl px-4  py-5'>SPECIAL RESCUES & DISASTER RELIEF</div>
+.animate-fade-left-in {
+  animation: fade-left-in 3s ease-in-out forwards;
+}
+        `}
+    </style>
+</div>
+ </a>
 
+
+  {/* FOURTH HORIZONTAL DIV*/}
+  <a href="special">
+<div className='bg-sky-200 h-20 w-3/5 border-4 rounded-l-full border-sky-950 
+ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translate-y-1 
+hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in'>
+
+<div><img src={bed} className=" h-20 w-20" alt="" /> </div>
+<div className='text-black font-semibold text-3xl px-4  py-5'>SPECIAL RESCUES AND DISASTER RELIEF</div>
+
+<style>
+        {`
+        @keyframes fade-right-in {
+            from {
+              transform: translateX(100%);
+              opacity: 0;
+            }
+            to {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+          
+          .animate-fade-right-in {
+            animation: fade-right-in 3s ease-in-out forwards;
+          }
+        `}
+    </style>
+
+</div>
+</a>
+
+   {/* FIFTH HORIZONTAL DIV*/}
+   <a href="#hospital">
+<div className='bg-sky-200 h-20 w-3/5 border-4 rounded-r-full border-sky-950 
+ml-20 flex duration-1000 ease-in-out justify-evenly m-10 transition delay-150 hover:-translate-y-1 
+hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in'>
+    <div className='text-black font-semibold text-3xl px-4 py-5'>
+        ANIMAL HOSPITAL
+    </div>
+    <div className='ml-12'>
+        <img src={bed} className="h-20 w-20" alt="" />
+    </div>
+
+    <style>
+        {`@keyframes fade-left-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-fade-left-in {
+  animation: fade-left-in 3s ease-in-out forwards;
+}
+        `}
+    </style>
+</div>
+ </a>
+
+    {/* SIXTH HORIZONTAL DIV*/}
+    <a href="mobile">
+<div className='bg-sky-200 h-20 w-3/5 border-4 rounded-l-full border-sky-950 
+ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translate-y-1 
+hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in'>
+
+<div><img src={bed} className=" h-20 w-20" alt="" /> </div>
+<div className='text-black font-semibold text-3xl px-4  py-5'>MOBILE HOSPITAL AND VET ON WHEELS</div>
+
+<style>
+        {`
+        @keyframes fade-right-in {
+            from {
+              transform: translateX(100%);
+              opacity: 0;
+            }
+            to {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+          
+          .animate-fade-right-in {
+            animation: fade-right-in 3s ease-in-out forwards;
+          }
+        `}
+    </style>
+
+</div>
+</a>
+   {/* SEVENTH HORIZONTAL DIV*/}
+
+   <a href="#clinic">
+<div className='bg-sky-200 h-20 w-3/5 border-4 rounded-r-full border-sky-950 
+ml-20 flex duration-1000 ease-in-out justify-evenly m-10 transition delay-150 hover:-translate-y-1 
+hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in'>
+    <div className='text-black font-semibold text-3xl px-4 py-5'>
+        ANIMAL OUTPATIENT CLINIC
+    </div>
+    <div className='ml-12'>
+        <img src={bed} className="h-20 w-20" alt="" />
+    </div>
+
+    <style>
+        {`@keyframes fade-left-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-fade-left-in {
+  animation: fade-left-in 3s ease-in-out forwards;
+}
+        `}
+    </style>
+</div>
+ </a>
+
+  {/* EIGTH HORIZONTAL DIV*/}
+  <a href="diagnostics">
+<div className='bg-sky-200 h-20 w-3/5 border-4 rounded-l-full border-sky-950 
+ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translate-y-1 
+hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in'>
+
+<div><img src={bed} className=" h-20 w-20" alt="" /> </div>
+<div className='text-black font-semibold text-3xl px-4  py-5'>DIAGNOSTICS</div>
+
+<style>
+        {`
+        @keyframes fade-right-in {
+            from {
+              transform: translateX(100%);
+              opacity: 0;
+            }
+            to {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+          
+          .animate-fade-right-in {
+            animation: fade-right-in 3s ease-in-out forwards;
+          }
+        `}
+    </style>
+
+</div>
+</a>
+
+  {/* NINTH HORIZONTAL DIV*/}
+  <a href="#shelter">
+<div className='bg-sky-200 h-20 w-3/5 border-4 rounded-r-full border-sky-950 
+ml-20 flex duration-1000 ease-in-out justify-evenly m-10 transition delay-150 hover:-translate-y-1 
+hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in'>
+    <div className='text-black font-semibold text-3xl px-4 py-5'>
+        ANIMAL SHELTER
+    </div>
+    <div className='ml-12'>
+        <img src={bed} className="h-20 w-20" alt="" />
+    </div>
+
+    <style>
+        {`@keyframes fade-left-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-fade-left-in {
+  animation: fade-left-in 3s ease-in-out forwards;
+}
+        `}
+    </style>
+</div>
+ </a>
+
+
+  {/* TENTH HORIZONTAL DIV*/}
+  <a href="education">
+<div className='bg-sky-200 h-20 w-3/5 border-4 rounded-l-full border-sky-950 
+ml-96 flex  justify-evenly m-10 transition ease-in-out delay-150 hover:-translate-y-1 
+hover:scale-110 duration-1000 hover:cursor-pointer opacity-0 animate-fade-right-in'>
+
+<div><img src={bed} className=" h-20 w-20" alt="" /> </div>
+<div className='text-black font-semibold text-3xl px-4  py-5'>HUMANE EDUCATION PROGRAM</div>
+
+<style>
+        {`
+        @keyframes fade-right-in {
+            from {
+              transform: translateX(100%);
+              opacity: 0;
+            }
+            to {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+          
+          .animate-fade-right-in {
+            animation: fade-right-in 3s ease-in-out forwards;
+          }
+        `}
+    </style>
+
+</div>
+</a>
 
 </div>
 
-<div className='bg-sky-200 h-24 w-3/5 border-4 rounded-r-full border-sky-950 ml-20 flex m-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:cursor-pointer' >
-
-    <div className='text-black font-semibold text-4xl px-4  py-5'>ANIMAL HOSPITAL</div>
-    <div><img src={logo1} alt="" /> </div>
-
- </div>
-
- <div className='bg-sky-200 h-24 w-3/5 border-4 rounded-l-full border-sky-950 ml-96 flex m-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:cursor-pointer'>
-
-<div><img src={logo1} alt="" /> </div>
-<div className='text-black font-semibold text-4xl px-4  py-5'>MOBILE HOSPITAL & VET ON WHEELS</div>
+{/*  HORIZONTAL DIV ENDING*/}
 
 
-</div>
-
-<div className='bg-sky-200 h-24 w-3/5 border-4 rounded-r-full border-sky-950 ml-20 flex m-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:cursor-pointer' >
-
-    <div className='text-black font-semibold text-4xl px-4  py-5'>ANIMAL OUTPATIENT CLINIC</div>
-    <div><img src={logo1} alt="" /> </div>
-
- </div>
-
- <div className='bg-sky-200 h-24 w-3/5 border-4 rounded-l-full border-sky-950 ml-96 flex m-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:cursor-pointer'>
-
-<div><img src={logo1} alt="" /> </div>
-<div className='text-black font-semibold text-4xl px-4  py-5'>DIAGNOSTICS</div>
-
-
-</div>
-
-<div className='bg-sky-200 h-24 w-3/5 border-4 rounded-r-full border-sky-950 ml-20 flex m-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:cursor-pointer' >
-
-    <div className='text-black font-semibold text-4xl px-4  py-5'>ANIMAL SHELTER</div>
-    <div><img src={logo1} alt="" /> </div>
-
- </div>
-
- <div className='bg-sky-200 h-24 w-3/5 border-4 rounded-l-full border-sky-950 ml-96 flex m-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:cursor-pointer'>
-
-<div><img src={logo1} alt="" /> </div>
-<div className='text-black font-semibold text-4xl px-4  py-5'>HUMAN EDUCATION PROGRAM</div>
-</div>
-
-
-     
-</div>
-
+{/*  VERTICAL DIV STARTING*/}
 <div className=' flex flex-col items-center'>
-
- <div className=' flex flex-row bg-slate-200 w-3/4 m-6' >
+ 
+ {/* FIRST VERTICAL DIV*/}
+ <div id="birth" className=' flex flex-row bg-slate-200 w-3/4 m-6' >
     <div className='bg-sky-200 text-black text-bold tracking-wider font-black text-4xl p-24 w-4/12 inline-block '>
         <h1 className='mt-3 mb-4'>ANIMAL</h1>
         <h1 className='mt-3 mb-4'>BIRTH</h1>
@@ -118,8 +382,8 @@ function Whatwedo() {
     sterilized numerous stray animals, . 
     </div>
  </div>
-
- <div className=' flex flex-row bg-slate-200 w-3/4 m-6' >
+  {/* SECOND HORIZONTAL DIV*/}
+ <div id="rescue" className=' flex flex-row bg-slate-200 w-3/4 m-6' >
     <div className='bg-sky-200 text-black text-bold tracking-wider font-black text-4xl p-24 w-4/12 inline-block '>
         <h1 className='mt-3 mb-4'>RESCUE</h1>
         <h1 className='mt-3 mb-4'>OF </h1>
@@ -143,8 +407,8 @@ function Whatwedo() {
        them a chance at a brighter future.
     </div>
  </div>
-
- <div className=' flex flex-row bg-slate-200 w-3/4 m-6' >
+ {/* THIRD HORIZONTAL DIV*/}
+ <div id="foster"  className=' flex flex-row bg-slate-200 w-3/4 m-6' >
     <div className='bg-sky-200 text-black text-bold tracking-wider font-black text-4xl p-24 w-4/12 inline-block '>
         <h1 className='mt-3 mb-4'>ADOPTION</h1>
         <h1 className='mt-3 mb-4'>AND</h1>
@@ -168,8 +432,8 @@ function Whatwedo() {
       permanent placements. We're proud to have made a positive impact on so many lives.
     </div>
  </div>
-
- <div className=' flex flex-row bg-slate-200 w-3/4 m-6' >
+ {/* FOURTH HORIZONTAL DIV*/}
+ <div id="special" className=' flex flex-row bg-slate-200 w-3/4 m-6' >
     <div className='bg-sky-200 text-black text-bold tracking-wider font-black text-4xl p-24 w-4/12 inline-block '>
         <h1 className='mt-3 mb-4'>SPECIAL</h1>
         <h1 className='mt-3 mb-4'>RESCUES </h1>
@@ -189,8 +453,8 @@ function Whatwedo() {
       to animal welfare in times of crisis.
     </div>
  </div>
-
- <div className=' flex flex-row bg-slate-200 w-3/4 m-6' >
+ {/* FIFTH HORIZONTAL DIV*/}
+ <div id="hospital" className=' flex flex-row bg-slate-200 w-3/4 m-6' >
     <div className='bg-sky-200 text-black text-bold tracking-wider font-black text-4xl p-24 w-4/12 inline-block '>
         <h1 className='mt-3 mb-4'>ANIMAL</h1>
         <h1 className='mt-3 mb-4'>HOSPITAL</h1>
@@ -231,8 +495,8 @@ Daily Cleaning, Deep Disinfection, Fumigation, Blow Torching, High Pressure Clea
 
     </div>
  </div>
-
- <div className=' flex flex-row bg-slate-200 w-3/4 m-6' >
+ {/* SIXTH HORIZONTAL DIV*/}
+ <div id="mobile" className=' flex flex-row bg-slate-200 w-3/4 m-6' >
     <div className='bg-sky-200 text-black text-bold tracking-wider font-black text-4xl p-24 w-4/12 inline-block '>
         <h1 className='mt-3 mb-4'>MOBILE</h1>
         <h1 className='mt-3 mb-4'>HOSPITAL</h1>
@@ -261,7 +525,8 @@ Daily Cleaning, Deep Disinfection, Fumigation, Blow Torching, High Pressure Clea
     boarding space for two animals. 
     </div>
  </div>
- <div className=' flex flex-row bg-slate-200 w-3/4 m-6' >
+ {/* SEVENTH HORIZONTAL DIV*/}
+ <div id="clinic" className=' flex flex-row bg-slate-200 w-3/4 m-6' >
     <div className='bg-sky-200 text-black text-bold tracking-wider font-black text-4xl p-24 w-4/12 inline-block '>
         <h1 className='mt-3 mb-4'>ANIMAL</h1>
         <h1 className='mt-3 mb-4'>OUTPATIENT</h1>
@@ -292,8 +557,8 @@ Daily Cleaning, Deep Disinfection, Fumigation, Blow Torching, High Pressure Clea
 
     </div>
  </div>
-
- <div className=' flex flex-row bg-slate-200 w-3/4 m-6' >
+{/* EIGTH HORIZONTAL DIV*/}
+ <div id="diagnostics" className=' flex flex-row bg-slate-200 w-3/4 m-6' >
     <div className='bg-sky-200 text-black text-bold tracking-wider font-black text-4xl p-24 w-4/12 inline-block '>
         <h1 className='mt-3 mb-4'>DIAGNOSTICS</h1>
         <br />
@@ -319,8 +584,8 @@ Daily Cleaning, Deep Disinfection, Fumigation, Blow Torching, High Pressure Clea
 - Integral part of providing top-tier care to our animal patients. <br />
     </div>
  </div>
-
- <div className=' flex flex-row bg-slate-200 w-3/4 m-4' >
+ {/* NINTH HORIZONTAL DIV*/}
+ <div id="shelter"  className=' flex flex-row bg-slate-200 w-3/4 m-4' >
     <div className='bg-sky-200 text-black text-bold tracking-wider font-black text-4xl p-24 w-4/12 inline-block '>
         <h1 className='mt-3 mb-4'>ANIMAL</h1>
         <h1 className='mt-3 mb-4'>SHELTERS</h1>
@@ -344,8 +609,8 @@ Daily Cleaning, Deep Disinfection, Fumigation, Blow Torching, High Pressure Clea
        homes for hundreds of animals in need, creating a brighter future for them.
     </div>
  </div>
-
- <div className=' flex flex-row bg-slate-200 w-3/4 m-6' >
+{/* TENTH HORIZONTAL DIV*/}
+ <div id="education" className=' flex flex-row bg-slate-200 w-3/4 m-6' >
     <div className='bg-sky-200 text-black text-bold tracking-wider font-black text-4xl p-24 w-4/12 inline-block '>
         <h1 className='mt-3 mb-4'>HUMANE</h1>
         <h1 className='mt-3 mb-4'>EDUCATION</h1>
@@ -371,12 +636,8 @@ an awareness when inculcated early, will stay with them throughout their lives.
     </div>
  </div>
 
- 
-
-
-
- 
  </div>
+ {/*  VERTICAL DIV ENDING*/}
 
           </>
   )

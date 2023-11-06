@@ -8,6 +8,8 @@ import Home from './Components/Home/Home.jsx'
 import Whatwedo from './Components/Whatwedo/Whatwedo.jsx'
 import Whoweare from './Components/Whoweare/Whoweare.jsx'
 import Waystohelp from './Components/Waystohelp/Waystohelp.jsx'
+import Adopt from './Components/Adopt/Adopt.jsx'
+
 
 const router=createBrowserRouter([
   {
@@ -29,7 +31,13 @@ const router=createBrowserRouter([
       {
         path:"Waystohelp",
         element:<Waystohelp/>
+      },
+      {
+        path:"Adopt",
+        element:<Adopt/>
       }
+
+      
     ]
   }
 ])
