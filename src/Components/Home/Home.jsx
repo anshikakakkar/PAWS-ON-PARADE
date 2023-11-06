@@ -11,18 +11,14 @@ import pillu4 from "../../assets/pillu4.jpg";
 import pillu5 from "../../assets/pillu5.jpg";
 import homedog from "../../assets/homedog.jpg";
 import pillu3 from "../../assets/pillu3.jpeg";
+import homevideo from "../../assets/homevideo.mp4";
 import "./Home.css";
 
 const Home = () => {
   return (
     <>
       {/* VIDEO */}
-      <img
-        src="https://thumbor.forbes.com/thumbor/fit-in/1290x/https://www.forbes.com/advisor/wp-content/uploads/2023/07/top-20-small-dog-breeds.jpeg.jpg"
-        className="w-screen h-screen"
-        alt=" images "
-      />
-
+      <video src={homevideo} muted autoPlay loop></video>
       {/* SUBHEADING */}
       <div className="flex flex-col items-center text-slate-600 bg-white py-16">
         <h3 className="text-3xl font-extrabold tracking-wide ">
@@ -218,7 +214,7 @@ const Home = () => {
                       </p>
                       <div className=" flex justify-center">
           <button className="bg-sky-200 text-lg border rounded-full p-1 text-black hover:translate-y-2 hover:border-4 hover:border-double ">
-            BECOME VOLUNTEER
+            ADOPT ME
           </button>
         </div>
                     </div>
@@ -256,7 +252,7 @@ const Home = () => {
                       </p>
                       <div className=" flex justify-center">
           <button className="bg-sky-200 text-lg border rounded-full p-1 text-black hover:translate-y-2 hover:border-4 hover:border-double ">
-            BECOME VOLUNTEER
+          ADOPT ME
           </button>
         </div>
                     </div>
@@ -294,7 +290,7 @@ const Home = () => {
                       </p>
                       <div className=" flex justify-center">
           <button className="bg-sky-200 text-lg border rounded-full p-1 text-black hover:translate-y-2 hover:border-4 hover:border-double ">
-            BECOME VOLUNTEER
+          ADOPT ME
           </button>
         </div>
                     </div>
@@ -335,7 +331,7 @@ const Home = () => {
                       </p>
                       <div className=" flex justify-center">
           <button className="bg-sky-200 text-lg border rounded-full p-1 text-black hover:translate-y-2 hover:border-4 hover:border-double ">
-            BECOME VOLUNTEER
+          ADOPT ME
           </button>
         </div>
                     </div>
@@ -373,7 +369,7 @@ const Home = () => {
                       </p>
                       <div className=" flex justify-center">
           <button className="bg-sky-200 text-lg border rounded-full p-1 text-black hover:translate-y-2 hover:border-4 hover:border-double ">
-            BECOME VOLUNTEER
+          ADOPT ME
           </button>
         </div>
                     </div>
@@ -411,7 +407,7 @@ const Home = () => {
                       </p>
                       <div className=" flex justify-center">
           <button className="bg-sky-200 text-lg border rounded-full p-1 text-black hover:translate-y-2 hover:border-4 hover:border-double ">
-            BECOME VOLUNTEER
+          ADOPT ME
           </button>
         </div>
                     </div>
