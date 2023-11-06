@@ -16,6 +16,15 @@ import waystohelp8 from "../../assets/waystohelp8.jpeg";
 import waystohelp3 from "../../assets/waystohelp3.jpg";
 import waystohelp4 from "../../assets/waystohelp4.jpg";
 import waystohelp5 from "../../assets/waystohelp5.jpg";
+import waystohelp7 from "../../assets/waystohelp7.jpg";
+import waystohelp11 from "../../assets/waystohelp5.jpg";
+import waystohelp12 from "../../assets/waystohelp5.jpg";
+import waystohelp13 from "../../assets/waystohelp5.jpg";
+import waystohelp14 from "../../assets/waystohelp5.jpg";
+import waystohelp15 from "../../assets/waystohelp15.png";
+
+
+
 
 function Waystohelp() {
   return (
@@ -424,17 +433,17 @@ animation: fade-left-in 3s ease-in-out forwards;
 
           <div className="flex ">
             <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100178.jpg?w=996&t=st=1699221070~exp=1699221670~hmac=117d00fbbe5696fd371009411be61b8f94b5b4b1df9f000ad1faab9ba97b000a"
+              src={waystohelp7}
               className="h-96 w-1/3"
               alt=""
             />
             <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100196.jpg?w=996&t=st=1699221091~exp=1699221691~hmac=7ca04a8fac32aebadda948ecb9d9689658c75418c2116a965ecb9194efd01f25"
+              src={waystohelp8}
               className="h-96 w-1/3"
               alt=""
             />
             <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100201.jpg?w=996&t=st=1699221268~exp=1699221868~hmac=4aa48874136d3e933f22049a898ed0c5faa18e2e527f5b33c763546731d787fc"
+              src={waystohelp12}
               className="h-96 w-1/3"
               alt=""
             />
@@ -483,17 +492,17 @@ animation: fade-left-in 3s ease-in-out forwards;
 
           <div className="flex ">
             <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100178.jpg?w=996&t=st=1699221070~exp=1699221670~hmac=117d00fbbe5696fd371009411be61b8f94b5b4b1df9f000ad1faab9ba97b000a"
+              src={waystohelp15}
               className="h-96 w-1/3"
               alt=""
             />
             <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100196.jpg?w=996&t=st=1699221091~exp=1699221691~hmac=7ca04a8fac32aebadda948ecb9d9689658c75418c2116a965ecb9194efd01f25"
+              src={waystohelp2}
               className="h-96 w-1/3"
               alt=""
             />
             <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100201.jpg?w=996&t=st=1699221268~exp=1699221868~hmac=4aa48874136d3e933f22049a898ed0c5faa18e2e527f5b33c763546731d787fc"
+              src={waystohelp2}
               className="h-96 w-1/3"
               alt=""
             />
@@ -532,17 +541,17 @@ animation: fade-left-in 3s ease-in-out forwards;
 
           <div className="flex ">
             <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100178.jpg?w=996&t=st=1699221070~exp=1699221670~hmac=117d00fbbe5696fd371009411be61b8f94b5b4b1df9f000ad1faab9ba97b000a"
+              src="https://imgs.search.brave.com/lJMMChDyLO9oT4RnCeKSlBpnrwI5R7sJhsKclAPjQKI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9kb2d3/aXRoYmxvZy5pbi93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxOS8w/OS9EZWxoaS1kb2ct/aGVscGxpbmUuanBn"
               className="h-96 w-1/3"
               alt=""
             />
             <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100196.jpg?w=996&t=st=1699221091~exp=1699221691~hmac=7ca04a8fac32aebadda948ecb9d9689658c75418c2116a965ecb9194efd01f25"
+              src="https://imgs.search.brave.com/Jlv3XZYw9Mz2nuf67wrzoeXT30Usgrn6JzP3fN_MXn8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/ZG9nc2VlY2hldy5p/bi9zdG9yYWdlL2Vk/aXRvcl82MzlhZjgx/ZDUzZDI1LWNhcmUt/YmFuZ2Fsb3JlLnBu/Zw"
               className="h-96 w-1/3"
               alt=""
             />
             <img
-              src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-dog_23-2149100201.jpg?w=996&t=st=1699221268~exp=1699221868~hmac=4aa48874136d3e933f22049a898ed0c5faa18e2e527f5b33c763546731d787fc"
+              src="https://imgs.search.brave.com/1_Z3tvZFLciZjRAn0R4duzj-HN9ABKzjy0w8sH6kfao/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pMS53/cC5jb20vZG9nd2l0/aGJsb2cuaW4vd3At/Y29udGVudC91cGxv/YWRzLzIwMjAvMDQv/Y2hlbm5haS1BV1BU/LWRvZy5qcGc_Zml0/PTY0MCwyNzkmc3Ns/PTE"
               className="h-96 w-1/3"
               alt=""
             />

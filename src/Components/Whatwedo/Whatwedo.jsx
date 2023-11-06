@@ -18,6 +18,7 @@ import heart from "../../assets/heart.jpg";
 import bed from "../../assets/bed.png";
 import whatwedopic from "../../assets/whatwedopic.webp";
 
+
 function Whatwedo() {
   return (
     <>
@@ -196,7 +197,7 @@ hover:scale-110 hover:cursor-pointer opacity-0 animate-fade-left-in"
               ANIMAL HOSPITAL
             </div>
             <div className="ml-12">
-              <img src={bed} className="h-20 w-20" alt="" />
+              <img src={bed} className="h-16 w-20" alt="" />
             </div>
 
             <style>
